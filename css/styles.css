@@ -1,3 +1,97 @@
+html {
+  font-family: unset;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
 #title {
   background-color: brown;
+}
+.container-features {
+  padding: 3% 15%;
+  text-align: center;
+}
+.container-title {
+  padding: 3% 25%;
+}
+h1 {
+  font-family: "Montserrat Black", arial;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.rotate-img {
+  transform: rotate(20deg);
+  width: 60%;
+  margin-left: 10%;
+}
+
+.navbar {
+  padding-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.d-button {
+  margin: 0 0.5rem;
+}
+
+.i-color {
+  color: brown;
+}
+
+.i-color:hover {
+  color: crimson;
+}
+.feat-fs {
+  font-size: 1.5rem;
+}
+.feat-p {
+  font-size: 0.8rem;
+  font-weight: 100;
+  width: 60%;
+  margin: 0px auto;
+  color: darkgray;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: crimson;
+  color: antiquewhite;
+}
+
+.carousel-inner {
+  padding: 3% 20%;
+}
+h2 {
+  font-family: "Montserrat", arial;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 5%;
+}
+.testimonial-image {
+  margin: 2%;
+  width: 20%;
+  border-radius: 100%;
+}
+
+#press {
+  text-align: center;
+  background-color: crimson;
+  padding-bottom: 2rem;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 2rem 1.5rem 0 2rem;
+}
+
+#pricing {
+  text-align: center;
 }
